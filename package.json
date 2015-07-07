@@ -1,0 +1,24 @@
+{
+  "name": "jwt-claims",
+  "version": "0.1.0",
+  "description": "Minimal utility for decoding JWT claims",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tschaub/jwt-claims.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tschaub/jwt-claims/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "base64-js": "0.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^0.24.0",
+    "eslint-config-tschaub": "^1.0.0"
+  }
+}
