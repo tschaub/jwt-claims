@@ -13,7 +13,7 @@ var token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.' +
     'eyJuYW1lIjoi0JvQtdC-0L3RgtC40LkiLCJudW0iOjQyLCJib29sIjpmYWxzZX0.' +
     'icqeYQUXd1l84wHc-vIzVXOQx7DI4V2H-YV34su7cuY';
 
-var claims = decode(str);
+var claims = decode(token);
 
 console.log(claims);
 // { name: 'Леонтий', num: 42, bool: false }
