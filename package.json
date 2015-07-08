@@ -2,6 +2,13 @@
   "name": "jwt-claims",
   "version": "1.0.0",
   "description": "Minimal utility for decoding JWT claims",
+  "keywords": [
+    "jwt",
+    "decode",
+    "token",
+    "claims",
+    "browser"
+  ],
   "main": "lib/index.js",
   "scripts": {
     "pretest": "eslint lib test",
