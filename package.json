@@ -1,6 +1,6 @@
 {
   "name": "jwt-claims",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Minimal utility for decoding JWT claims",
   "main": "lib/index.js",
   "scripts": {
