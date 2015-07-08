@@ -5,7 +5,10 @@
   "main": "lib/index.js",
   "scripts": {
     "pretest": "eslint lib test",
-    "test": "node test/make-fixtures.js && karma start test/karma.config.js --single-run"
+    "test": "npm run fixtures && npm run node-tests && npm run browser-tests",
+    "fixtures": "node test/make-fixtures.js",
+    "node-tests": "mocha test/index.test.js",
+    "browser-tests": "karma start test/karma.config.js --single-run"
   },
   "repository": {
     "type": "git",
