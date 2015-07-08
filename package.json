@@ -2,9 +2,10 @@
   "name": "jwt-claims",
   "version": "0.1.0",
   "description": "Minimal utility for decoding JWT claims",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "eslint index.js"
+    "pretest": "eslint lib test",
+    "test": "node test/make-fixtures.js && karma start test/karma.config.js --single-run"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,16 @@
     "base64-js": "0.0.8"
   },
   "devDependencies": {
+    "browserify": "^10.2.4",
+    "chai": "^3.0.0",
     "eslint": "^0.24.0",
-    "eslint-config-tschaub": "^1.0.0"
+    "eslint-config-tschaub": "^1.0.0",
+    "jwt-simple": "^0.3.0",
+    "karma": "^0.12.37",
+    "karma-browserify": "^4.2.1",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-mocha": "^0.2.0",
+    "karma-sauce-launcher": "^0.2.14",
+    "mocha": "^2.2.5"
   }
 }
