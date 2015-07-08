@@ -1,0 +1,54 @@
+{
+  "a simple token": {
+    "secret": "my secret",
+    "payload": {
+      "claim": "my claim"
+    }
+  },
+  "a numeric claim": {
+    "secret": "some secret",
+    "payload": {
+      "num": 42
+    }
+  },
+  "a boolean claim": {
+    "secret": "some secret",
+    "payload": {
+      "bool": true
+    }
+  },
+  "a token with multiple claims": {
+    "secret": "my secret",
+    "payload": {
+      "claim": "my claim",
+      "num": 42,
+      "bool": false
+    }
+  },
+  "a Cyrillic claim name": {
+    "secret": "some secret",
+    "payload": {
+      "Леонтий": "Leontius"
+    }
+  },
+  "a Cyrillic claim value": {
+    "secret": "some secret",
+    "payload": {
+      "claim": "Леонтий"
+    }
+  },
+  "a Cyrillic secret": {
+    "secret": "Харито́н",
+    "payload": {
+      "name": "Леонтий"
+    }
+  },
+  "another token with multiple claims": {
+    "secret": "my secret",
+    "payload": {
+      "name": "Леонтий",
+      "num": 42,
+      "bool": false
+    }
+  }
+}
