@@ -1,5 +1,7 @@
 # `jwt-claims`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tschaub/jwt-claims.svg)](https://greenkeeper.io/)
+
 Parse claims from a JWT payload.
 
     npm install jwt-claims
